@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="Alias"
+        android:summary="Enter the nickname you want to be referred to"
+        android:key="alias_pref"/>
+
+    <EditTextPreference
+        android:title="Age"
+        android:summary="Enter your age"
+        android:key="age_pref"/>
+
+    <EditTextPreference
+        android:title="Location"
+        android:summary="Enter the province, state, town or city you live in"
+        android:key="location_pref"/>
+
+    <Preference
+        android:title="Apply Changes"
+        android:summary="Click here to alter your user data"
+        android:key="@string/updateButton"/>
+
+    <Preference
+        android:accessibilityLiveRegion="none"
+        android:clickable="false"
+        android:enabled="false"
+        android:selectable="true"
+        android:shouldDisableView="true"/>
+
+    <EditTextPreference
+        android:accessibilityLiveRegion="none"
+        android:clickable="false"
+        android:enabled="true"
+        android:key="nameInUse"
+        android:selectable="false"
+        android:shouldDisableView="true"
+        android:visibility="gone"
+        tools:visibility="gone" />
+</PreferenceScreen>

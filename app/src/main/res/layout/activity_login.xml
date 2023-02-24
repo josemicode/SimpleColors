@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userHandler.Login">
+
+    <EditText
+        android:id="@+id/editName2"
+        android:layout_width="249dp"
+        android:layout_height="62dp"
+
+        android:backgroundTint="@color/rojo"
+
+        android:hint="Name"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <EditText
+        android:id="@+id/editPassword2"
+        android:layout_width="249dp"
+        android:layout_height="62dp"
+
+        android:backgroundTint="@color/verdeclaro"
+
+        android:hint="Password"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="205dp"
+        android:layout_height="69dp"
+
+        android:backgroundTint="@color/verdeclaro"
+
+        android:fontFamily="@font/seasrn__"
+        android:text="CONTINUE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

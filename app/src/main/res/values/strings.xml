@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SimpleColors</string>
+    <string name="bien">Nice, you did it!</string>
+    <string name="mal">Oh, no! Try again!</string>
+    <string name="elige">Choose the color: </string>
+    <string name="minijuego">Play to Learn</string>
+    <string name="advertencia">Warning: this action is definitive and cannot be reversed</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="updateButton">updateButton</string>
+    <string name="userName">nameInUse</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
